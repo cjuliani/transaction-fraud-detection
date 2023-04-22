@@ -25,7 +25,7 @@ _Note: variable names have been replaced to protect company A's business._
 
 This project deliver prediction results from 3 machine learning models, which can predict whether a transaction is fraudulent or not.
 
-**(1) Data processing, feature engineering and data analysis** 
+**Step 1: Data processing, feature engineering and data analysis** 
 
 First, separate data into numerical (`NUM`), categorical (`CAT`), time and date formats (`config.py`). Next, collect and process data given format.
 Group data by `person_id` to extract new features (associated to individual clients). The extraction process is done via `multiprocessing` to
