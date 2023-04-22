@@ -1,0 +1,6 @@
+MISSING_DATA = ['v11', 'v14']
+UNUSED = ['Transaction_Id', 'v10', 'v5']
+NUM_DATA = ['Merchant_Id', 'v6', 'v7', 'v13']
+TIME_DATA = ['v1', 'v2']
+DATE_DATA = ['v12']
+CAT_DATA = ['v3', 'v4', 'PaymentChannel', 'ItemName', 'v8', 'v9']
